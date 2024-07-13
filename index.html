@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Date Format Utilities - Aebibtech</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/site.css" />
+    </head>
+    <body class="bg-dark text-white">
+        <div class="container mt-3">
+            <header class="mb-3">
+                <h1 id="header">Remove Time from DateTime string</h1>
+            </header>
+            <main role="main" class="pb-3">
+                <label class="form-label" for="separator">Date Separator</label>
+                <select class="form-select" id="separator"></select>
+                <form class="my-3 d-flex justify-content-between gap-4">
+                    <textarea class="form-control" id="datelist" style="height: 50vh!important;"></textarea>
+                    <textarea class="form-control" id="datelistResult" style="height: 50vh!important;"></textarea>
+                </form>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-success" id="copy">Format</button>
+                    <button class="btn btn-primary" id="download">Download</button>
+                </div>
+                <p class="text-white fw-bold mt-3" id="message"></p>
+            </main>
+        </div>
+        <footer class="fixed-bottom text-white mb-3">
+            <div class="container">
+                &copy; 2024 - <a class="text-white" href="https://aebibtech.com" target="_blank">Aebibtech</a>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+        <script src="js/site.js"></script>
+    </body>
+</html>
